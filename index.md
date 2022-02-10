@@ -4,6 +4,6 @@
 
 layout: home
 ---
-# Readme
+# Home
 
 This is the readme
