@@ -4,6 +4,5 @@
 
 layout: home
 ---
-# Home
 
 This is the readme
