@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Lemhiba"
+date:   2022-02-09 19:33:11 -0800
+categories: songs
+youtubeId: IZWJpDHKOkI
+---
+
+{% include youtubePlayer.html id=page.youtubeId %}
+Lemḥiba-m tuɣ-ed ɣef wul-iw
+You love blossomed in my heart
+
+Tefka-d acḥal iẓuran
+Gave countless roots
+
+ḥulfaɣ iḍaq lxatar-iw
+Felt aches in my chest
+
+D lɣiba-m id-i yenɣ an
+Your absence is killing me
+
+ḥulfaɣ iḍaq lxatar-iw
+D lɣiba-m id-i yenɣ an
+
+Ul-iw yecba di saḥra
+My heart was a desert
+
+Am iṭij isarɣayen
+Like a burning sun
+
+Ctaqen aman di cetwa
+Craves water all along
+
+D rmel kan it iččoran
+But only sand it gets
+
+Ul-iw yecba di saḥra
+Am iṭij isarɣayen
+Ctaqen aman di cetwa
+D rmel kan it iččoran
+
+Tenna yeqlan tagara
+
+Am lqaεa yeǧǧuǧgen
+
+Tessa yarna tdel merra
+S lward bu riḥa ziden
+
+Ayen id-yemɣin degs ass-a
+D kem iti zarεen
+
+Ayen id-yemɣin degs ass-a
+D kem iti zarεen
+
+Lɣiba-m tmaḥni-yi
+Ifud wul ik-m iḥemlen
+
+Tibḥirt tesemɣiḍ deg-i
+Tekkaw ula w-it yeswen
+
+Lɣiba-m tmaḥni-yi
+Ifud wul ik-m iḥemlen
+
+Tibḥirt tesemɣiḍ deg-i
+Tekkaw ula w-it yeswen
+
+Lward aεzizen it muɣli
+Ata iban fella-s leḥzen
+
+Cbaḥa-s amzun texsi
+Mi tɣabeḍ a tin aεzizen
+
+Cbaḥa-s amzun texsi
+Mi tɣabeḍ a tin aεzizen
+
+Lemḥiba-m tuɣ-ed ɣef wul-iw
+Tefka-d acḥal iẓuran
+
+ḥulfaɣ iḍaq lxatar-iw
+D lɣiba-m id-i yenɣ an
+
+ḥulfaɣ iḍaq lxatar-iw
+D lɣiba-m id-i yenɣ an
+
+ḥulfaɣ iḍaq lxatar-iw
+D lɣiba-m id-i yenɣ an
