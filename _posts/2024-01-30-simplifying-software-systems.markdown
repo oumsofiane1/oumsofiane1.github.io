@@ -6,14 +6,14 @@ categories: system architecture
 youtubeId: IZWJpDHKOkI
 ---
 
-Think about this situation, a software engineering team inherits a large system, the business use cases where these systems are used aren't all fleshed out, you and your team are tasked to simplify.
-Commonly, in this situation it is tempting to equate the simplification process with the reduction of subsystems. Fewer components mean there's less to manage, less to debug, and less to document. However, this process is not without its risks. Key among these is the potential loss of business value. Every element of a software system ideally serves a purpose; removing them without considering their contribution can inadvertently strip away functionalities vital to the system's value. Simplification shouldn't be at the expense of business value.
+Think about this scenario, your team inherits a large system, no one understands the business use cases they were built for, you and your team are tasked to simplify.
+In this situation it is tempting to equate the simplification process with the reduction of subsystems. Fewer components mean less to manage, less to debug, and less to document. However, this process is not without its risks, key among these is the potential loss of business value. Every element of a software system ideally served a purpose; removing them without considering their contribution can inadvertently strip away functionalities vital to the system's value.
 
 Beyond reducing the lines of code, and subsystems, there are often many aspects that contribute to complexity of software architecture:
 
 ## The power of naming
 
-Names that are clear, consistent, descriptive can significantly simplify the understanding and maintenance of a system. Conversely, poor naming conventions can lead to confusion, errors, and a steeper learning curve for new developers joining the project.
+Names that are clear, consistent, descriptive can significantly simplify the understanding and maintenance of a system. Conversely, poor naming conventions can lead to confusion, errors, and a steeper learning curve for new developers.
 
 ## Diversity of architecture paradigms
 
@@ -23,3 +23,6 @@ I have also seen this with parts of a system using lambda architecture and some 
 
 ## Technology stack multiplicity
  While embracing new technologies is crucial for innovation, it’s important to weigh this against the simplicity of the system. A diverse technology stack can lead to challenges in maintenance, onboarding and training new engineers.
+
+
+Systems can't all be reduced and simplified, many complex systems are complex due to the complexity of the business needs they fulfill. However as software engineers we should keep striving for taming that complexity as much as we can.
