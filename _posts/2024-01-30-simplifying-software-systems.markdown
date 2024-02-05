@@ -7,7 +7,8 @@ youtubeId: IZWJpDHKOkI
 ---
 
 Think about this scenario, your team inherits a large system, no one understands the business use cases they were built for, you and your team are tasked to simplify.
-In this situation it is tempting to equate the simplification process with the reduction of subsystems. Fewer components mean less to manage, less to debug, and less to document. However, this process is not without its risks, key among these is the potential loss of business value. Every element of a software system ideally served a purpose; removing them without considering their contribution can inadvertently strip away functionalities vital to the system's value.
+
+It is tempting to equate the simplification process with the reduction of subsystems. Fewer components mean less to manage, less to debug, and less to document. However, this process is not without its risks, key among these is the potential loss of business value. Every element of a software system ideally served a purpose; removing them without considering their contribution can inadvertently strip away functionalities vital to the system's value.
 
 Beyond reducing the lines of code, and subsystems, there are often many aspects that contribute to complexity of software architecture:
 
