@@ -1,0 +1,15 @@
+# P2P Systems
+Napster:
+* Servers store information about different nodes.
+* Node store files.
+
+Gnutella:
+* Eliminate the servers
+* Fully distributed.
+* The actual file transfer uses GET, with Range.
+* What if the responder is behind a firewall ?
+    * firewall prevents messages from coming in.
+    * how do they solve:
+        * uses PUSH message.
+        * sends a PUSH message [servent_id, fileidex, ip_address, port]
+        * GIV <file index>:<server identifier>/<filename>
