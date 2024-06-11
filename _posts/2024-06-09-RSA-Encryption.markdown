@@ -16,26 +16,27 @@ This is when one of her girlfriends, Beka, gave her a great idea: what if she us
 
 "How does this work ?" Inquired Alice.
 
-Well, let's try an example. Say we want to send the number x = 2 as a secret. (mod means the remainder of a division) 
+Let's illustrate with an example, say we want to send the number x = 2 as a secret.
 ```math
 2 * 17 mod 26 = 34 mod 26 = 8 (because 34 / 26 = 1 with a remainder of 8)
 8 * 23 mod 26 = 184 mod 26 = 2.
 ```
 
-The reason this is working is because 23 is the reverse multiplicative of 17 mod 26, that means 
+This works because 23 is the reverse multiplicative of 17 mod 26, which means 
 ```math
 17*23 = 1 (mod 26).
 ```
-so when we are encrypting a message m, we do (m*17 mod 26) = encrypted_message (em)
+When we encrypt a message m; `m * 17 mod 26 = encrypted_message (H)`
 ```math
-em    = m*17 mod 26
-em*23 = m*17*23 mod 26
-      = m * 1 mod 26 = m (as long as m < 26)
+H      = m * 17 mod 26
+H * 23 = m * 17 * 23 mod 26
+       = m * 1 mod 26 
+       = m (as long as 0 < m < 26)
 ```
 
-In the previous example, what prevents anyone from finding the reverse multiplicative. if fact, given n and m, it is possible to find the multiplicative inverse of `m mod n` this method. While it illustrates the main idea has a significant security problem, anyone with the public key can find the value for the private key. 
-
-To solve for this significant security problem, we can use the following property:
+While this method illustrates the main idea behind asymmetric encryption, it is not secure.
+Given n and m, it is possible to find the multiplicative inverse of `m mod n`. 
+Anyone with the public key can find the value for the private key. 
 
 Given p and q as two large primary numbers, and n = pq
 
@@ -50,6 +51,6 @@ Then,
 
 m<sup>ed</sup> ≡ m mod n
 
-With this understanding, we can encrypt messages by doing H = m<sup>e</sup> mod n to encrypt, and then to decrypt we can use H<sup>d</sup> mod n to decrypt. 
+We can encrypt messages by doing H = m<sup>e</sup> mod n to encrypt, and then to decrypt we can use H<sup>d</sup> mod n to decrypt. 
 
 We share (e,n) as our public key, and keep (d, n) as our private key. d is no longer obvious to find, because it is  the reverse multiplicative of `e mod ϕ(n)`,  to find, one would need to know p, q, and to know p and q, one would must factorize n, which is computationally hard for large numbers.
