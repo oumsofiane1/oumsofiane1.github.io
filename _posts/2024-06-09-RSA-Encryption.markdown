@@ -35,8 +35,12 @@ H * 23 = m * 17 * 23 mod 26
 ```
 
 While this method illustrates the main idea behind asymmetric encryption, it is not secure.
-Given n and m, it is possible to find the multiplicative inverse of `m mod n`. 
+In fact, given n and m. It is easily possible to find the multiplicative inverse of `m mod n`. 
 Anyone with the public key can find the value for the private key. 
+
+To render the solution more secure, we can use Euler's formula to our advantage:
+
+a<sup>ϕ(n)</sup> ≡ 1 mod (n) where ϕ(n) is Euler’s totient function
 
 Given p and q as two large primary numbers, and n = pq
 
@@ -51,6 +55,6 @@ Then,
 
 m<sup>ed</sup> ≡ m mod n
 
-We can encrypt messages by doing H = m<sup>e</sup> mod n to encrypt, and then to decrypt we can use H<sup>d</sup> mod n to decrypt. 
+We encrypt messages by doing H = m<sup>e</sup> mod n to encrypt, to decrypt we use H<sup>d</sup> mod n. 
 
 We share (e,n) as our public key, and keep (d, n) as our private key. d is no longer obvious to find, because it is  the reverse multiplicative of `e mod ϕ(n)`,  to find, one would need to know p, q, and to know p and q, one would must factorize n, which is computationally hard for large numbers.
