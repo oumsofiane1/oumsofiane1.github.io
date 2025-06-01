@@ -34,8 +34,6 @@ H * 23 = m * 17 * 23 mod 26 = m * 1 mod 26 = m
 
 Voilà — a one-way door only Alice can walk through.
 
----
-
 This trick of using modular inverses is powerful, but it isn’t secure when the numbers are small. If everyone knows 17 and 26, it’s not hard to figure out 23. So how can we make this truly secure?
 
 Enter Euler’s theorem and the RSA algorithm — the backbone of modern internet encryption.
@@ -62,8 +60,6 @@ This works because:
 `(m^e)^d ≡ m (mod n)`
 
 And why is this secure? Because while `e` and `n` are public, finding `d` without knowing `ϕ(n)` — which requires factoring `n` — is extremely hard when `n` is a product of two very large primes.
-
----
 
 This mathematical rabbit hole is why encryption keeps your bank info, DMs, and private memes safe. Unless, of course, someone ever *does* break the math…
 
