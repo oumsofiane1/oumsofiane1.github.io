@@ -61,6 +61,4 @@ This works because:
 
 And why is this secure? Because while `e` and `n` are public, finding `d` without knowing `ϕ(n)` — which requires factoring `n` — is extremely hard when `n` is a product of two very large primes.
 
-This mathematical rabbit hole is why encryption keeps your bank info, DMs, and private memes safe. Unless, of course, someone ever *does* break the math…
-
-Or invents a quantum computer that can.
+This mathematical rabbit hole is why encryption keeps your bank info, DMs, and private memes safe. Unless, of course, someone ever *does* break the math… or invents a quantum computer that can.
