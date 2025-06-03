@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "simplifying software systems"
+title:  "Simplifying software systems"
 date:   2024-01-30 19:33:11 -0800
 categories: system architecture
 youtubeId: IZWJpDHKOkI
