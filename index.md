@@ -10,7 +10,6 @@ layout: home
     text-decoration: none;
   }
   a:hover {
-    text-decoration: underline;
-    color: red !important;
+    text-decoration: none !important;
   }
 </style>
