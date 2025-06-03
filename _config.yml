@@ -33,10 +33,11 @@ github_username:  oumsofiane1
 theme: minima
 markdown: kramdown
 
-minima:
-  skin: classic
-  include_css:
-    - assets/css/custom.css
+kramdown:
+  smart_quotes: "apos,apos,quot,quot"
+  input: GFM
+  hard_wrap: false
+  typographic_symbols: {}
 
 # Exclude from processing.
 # The following items will not be processed, by default.

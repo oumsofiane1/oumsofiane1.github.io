@@ -1,9 +1,3 @@
----
-layout: post
-title:  "RSA Encryption"
-categories: cryptography
----
-
 ## How to Break the Internet?
 
 What if I told you that solving just *one* mathematical problem could dismantle most of the internet? Just like Neo in *The Matrix*, you'd begin to see the underlying code behind everything.
