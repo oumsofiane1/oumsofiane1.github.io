@@ -4,3 +4,13 @@
 
 layout: home
 ---
+
+<style>
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: red !important;
+  }
+</style>
