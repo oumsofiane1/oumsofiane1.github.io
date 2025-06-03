@@ -18,7 +18,7 @@ Names that are clear, consistent, descriptive can significantly simplify the und
 
 ### Diversity of architecture paradigms
 
-I have seen this in the past, with teams starting initiatives to move from a monolith system to micro services, as the initiative wanes the system ends up somewhere in the middle with parts of it still in the monolith and parts in a whole new infrastructure. While this can be an acceptable in between step, teams should be aware of the added complexity that the interim period introduces.
+I have seen this with teams starting initiatives to move from a monolith system to micro services, as the initiative wanes the system ends up somewhere in the middle with parts of it still in the monolith and parts in a whole new infrastructure. While this can be an acceptable in between step, teams should be aware of the added complexity that the interim period introduces.
 
 I have also seen this with parts of a system using lambda architecture and some using micro-services hosted say on Kubernetes, while there are legitimate reasons to use one or the other, these choices will come at the cost of added complexity to be factored in.
 
