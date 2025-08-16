@@ -1,5 +1,3 @@
-## AI Strategy Isn’t Just About Doing More—It’s About Doing Less, Better
-
 When AI is discussed in enterprise strategy, the conversation often centers on more; more projects completed, more tickets closed, more output in less time. It’s productivity defined by volume. But perhaps the deeper opportunity lies not in scaling up output, but in scaling down complexity.
 
 What if the real promise of AI isn’t just doing more things faster, but needing fewer things done at all?
